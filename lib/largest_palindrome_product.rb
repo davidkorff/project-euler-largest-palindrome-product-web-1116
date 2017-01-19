@@ -8,13 +8,9 @@ def largest_palindrome_product
       if is_palindrome?(x*y)
         if highest<x*y
           highest = x*y
-        end
-      end
-    end
-  end
+        end(4)
 
   return highest
-
 end
 
 
